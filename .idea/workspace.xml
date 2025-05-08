@@ -5,15 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="4a38bed7-eaa3-4a13-bdb6-15748da6d747" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/Exceptions/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Logging/Log_to_files.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Logging/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/VisualizeData/NER.ipynb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/NewsClassification.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/NewsClassification.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/material_theme_project_new.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/material_theme_project_new.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Pipeline/Preprocessing/__init__.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/VisualizeData/EDA.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/VisualizeData/EDA.ipynb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Pipeline/TextPreprocessing.py" beforeDir="false" afterPath="$PROJECT_DIR$/Pipeline/Preprocessing/TextPreprocessing.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/main.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/main.ipynb" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -72,6 +67,7 @@
 }]]></component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/Pipeline/Preprocessing" />
       <recent name="$PROJECT_DIR$/VisualizeData" />
       <recent name="$PROJECT_DIR$/Data" />
       <recent name="$PROJECT_DIR$" />
@@ -94,7 +90,7 @@
       <updated>1746660034678</updated>
       <workItem from="1746660035886" duration="1422000" />
       <workItem from="1746692034002" duration="58000" />
-      <workItem from="1746692097968" duration="408000" />
+      <workItem from="1746692097968" duration="3159000" />
     </task>
     <servers />
   </component>
