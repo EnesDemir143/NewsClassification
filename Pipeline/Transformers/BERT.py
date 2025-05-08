@@ -1,5 +1,6 @@
 import torch
 from transformers import AutoModelForMaskedLM, AutoTokenizer
+from Logging.Log_to_files import logtofile
 
 class BERT:
     def __init__(self):
