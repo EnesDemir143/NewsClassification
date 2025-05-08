@@ -7,4 +7,7 @@ class BERT:
         device = torch.device("mps" if torch.backends.mps.is_available() else "cpu")
         self.model = AutoModelForMaskedLM.from_pretrained("google-bert/bert-base-uncased").to(device)
 
-    def bert_
+    def bert_contextual_embedding(self, text):
+        token_vector = self.tokenizer(text, return_tensors='pt')
+        output = self.model(**token_vector)
+        return output
