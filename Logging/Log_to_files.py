@@ -1,9 +1,9 @@
 import logging
 
-class logtofile:
-    def __init__(self):
-        logging.basicConfig(level=logging.DEBUG, filemode='w', filename='MainLog.log',
+logging.basicConfig(level=logging.DEBUG, filemode='w', filename='MainLog.log',
                     format='%(asctime)s %(clientip)-15s %(user)-8s %(message)s')
+
+class logtofile:
     @staticmethod
     def debug(text):
         logging.debug(text)
