@@ -5,10 +5,6 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="4a38bed7-eaa3-4a13-bdb6-15748da6d747" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/Dependincies.ipynb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Logging/Log_to_files.py" beforeDir="false" afterPath="$PROJECT_DIR$/Logging/Log_to_files.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Pipeline/TextRepresentation/TF_IDF.py" beforeDir="false" afterPath="$PROJECT_DIR$/Pipeline/TextRepresentation/TF_IDF.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Pipeline/TextRepresentation/Word2vec.py" beforeDir="false" afterPath="$PROJECT_DIR$/Pipeline/TextRepresentation/Word2vec.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -91,7 +87,7 @@
       <updated>1746660034678</updated>
       <workItem from="1746660035886" duration="1422000" />
       <workItem from="1746692034002" duration="58000" />
-      <workItem from="1746692097968" duration="6994000" />
+      <workItem from="1746692097968" duration="7511000" />
     </task>
     <servers />
   </component>
