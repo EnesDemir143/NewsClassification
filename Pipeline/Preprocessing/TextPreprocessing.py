@@ -1,9 +1,8 @@
 import re
 import string
-
 import spacy
-from fontTools.misc.cython import returns
-#%%
+from Logging.Log_to_files import logtofile
+
 from nltk.corpus import stopwords
 
 class ManuelTextPreprocessing:
@@ -26,11 +25,15 @@ class ManuelTextPreprocessing:
         punctuations = string.punctuation
         return text.translate(str.maketrans('', '', punctuations))
 
+    def _remove_url(self, text):
+        return re.sub(r'http\S+|www\S+|https\S+', '', text, flags=re.MULTILINE)
+
     def _lowercase(self, text):
         return text.lower()
 
     def text_preprocess(self, text):
         text = self._lowercase(text)
+        text = self._remove_url(text)
         text = self._remove_htmls(text)
         text = self._remove_special_chracters(text)
         text = self._remove_punct(text)
@@ -38,4 +41,5 @@ class ManuelTextPreprocessing:
 
         doc = self.nlp(text)
         filtered_text = [token.lemma_ for token in doc]
+        logtofile.debug('Manuel textpreprocessing tamamlandı.')
         return " ".join(filtered_text)

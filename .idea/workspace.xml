@@ -5,10 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="4a38bed7-eaa3-4a13-bdb6-15748da6d747" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/Pipeline/Preprocessing/__init__.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Pipeline/TextPreprocessing.py" beforeDir="false" afterPath="$PROJECT_DIR$/Pipeline/Preprocessing/TextPreprocessing.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/main.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/main.ipynb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Pipeline/Preprocessing/TextPreprocessing.py" beforeDir="false" afterPath="$PROJECT_DIR$/Pipeline/Preprocessing/TextPreprocessing.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -90,7 +88,7 @@
       <updated>1746660034678</updated>
       <workItem from="1746660035886" duration="1422000" />
       <workItem from="1746692034002" duration="58000" />
-      <workItem from="1746692097968" duration="3159000" />
+      <workItem from="1746692097968" duration="5379000" />
     </task>
     <servers />
   </component>
